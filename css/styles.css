@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  flex: 0 1 100%;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+  font-weight: 700;
+}
+img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+@media screen and (min-width: 480px) {
+  .contenido-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .entrada {
+    flex: 0 1 calc(50% - 1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+  }
+  
+}
+
+.entrada {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 1.5rem;
+  }
+
+@media screen and (min-width: 768px) {
+  .entrada {
+    flex: 0 1 calc(33% - 1rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+  }
+
+
+}
+
+.contenido {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contenido span {
+  color: #db008d;
+}
+
+.contenido h3 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.boton {
+  text-decoration: none;
+  background-color: #008fd1;
+  color: #fff;
+  padding: 0.6rem 3rem;
+  border-radius: 3px;
+  margin-top: 1rem;
+  display: inline-block;
+}
